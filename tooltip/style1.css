@@ -1,0 +1,25 @@
+.valed{
+    position: relative;
+    margin: 200px;
+}
+/* answer issues in github fix #1 */
+/* test for syntax amend   */
+.farzand{
+    position: absolute;
+    background-color: black;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    top: -42px;
+    right: -4px;
+}
+.farzand::after{
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+    position: absolute; 
+    top: 33px;
+    right: 15px;
+
+}
